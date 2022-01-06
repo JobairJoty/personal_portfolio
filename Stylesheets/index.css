@@ -3,23 +3,25 @@ body{
     margin:0px;
     font-family: 'Poppins', sans-serif;
 }
+h1{
+    font-size: 40px;
+}
 #top-banner{
     width:1077px;
-    /* height: 623px; */
     display: flex;
     margin:auto;
     justify-content:space-between;
 }
 .content{
     width:40%;
-     margin:10% 0% 0% 5%;
+    margin:10% 0% 0% 5%;
  }
  .profile-pic{
      width: 40%;
      margin:0% 0% 0% 5%;
  }
 #top-banner h1{
-    font-size: 48px;
+    font-size: 50px;
     font-family: microsoft tai le;
     border-radius: 4px 4px 4px 4px;
     border-left: 5px solid red;
@@ -35,6 +37,7 @@ body{
     
 }
 #top-banner img{
+    margin-top: 120px;
     margin-left:70px;
     width: 400px;
 }
@@ -112,7 +115,7 @@ button{
 /* Community Content */
 #community{
     width:1077px;
-    height: 623px;
+    /* height: 623px; */
     display: flex;
     margin: 60px auto;
     justify-content:space-between;
@@ -125,9 +128,6 @@ button{
     width: 400px;
     margin:10px 0px 10px 150px;
 }
-#community div.community-content{
-  
-}
 
 #community p{
     text-align: justify;
@@ -136,15 +136,14 @@ button{
 
 footer{
     background-color: rgb(11,13,23);
-    /* height: 150px; */
-    padding: 32px 0px 32px 0px;
+    padding: 20px 0px 20px 0px;
 }
 footer h2{
     color:white;
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 48px;
 }
 footer p{
     color:white;
@@ -152,4 +151,19 @@ footer p{
 }
 .coral{
     color:coral;
+}
+
+/* Custom */
+
+#end{
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    padding: 0px 0px 40px 0px;
+}
+#end img{
+    margin:0px 30px 0px 30px;
+    height:80px;
 }
